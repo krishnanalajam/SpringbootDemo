@@ -21,4 +21,9 @@ public class LoginController {
 	public String reg1() {
 		return "login successful";
 	}
+	
+	@RequestMapping("/reg2")
+	public String reg2() {
+		return "login successful";
+	}
 }
